@@ -81,8 +81,8 @@ body {
 
 .about-us {
   font-family: "Merriweather";
-  font-weight: 700;
-  font-size: 1.5rem;
+  font-weight: 600;
   color: #0ba4a2;
-  line-height: 3rem;
+  text-align: center;
+  /* line-height: 3rem; */
 }

@@ -114,34 +114,31 @@ const Header = () => {
               </button>
 
               <ul className="flex flex-col mt-24 uppercase">
-                <li className="menu-li">
-                  <Link
-                    to="/"
-                    className="transition duration-300 text-xl md:text-2xl"
-                    onClick={toggleMenu}
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li className="menu-li">
-                  <Link
-                    to="#about-us"
-                    className="transition duration-300 text-xl md:text-2xl"
-                    onClick={toggleMenu}
-                  >
-                    About Us
-                  </Link>
-                </li>
-                <li className="menu-li-icon fixed bottom-0 bg-[#0ba4a2]">
-                  <Link
-                    target="blank"
-                    to="https://www.instagram.com/rarissime_jewels/"
-                    className="transition duration-300"
-                    onClick={toggleMenu}
-                  >
+                <Link
+                  to="/"
+                  className="transition duration-300 text-xl md:text-2xl menu-li"
+                  onClick={toggleMenu}
+                >
+                  <li>Home</li>
+                </Link>
+                <Link
+                  to="/about-us"
+                  className="transition duration-300 text-xl md:text-2xl menu-li"
+                  onClick={toggleMenu}
+                >
+                  <li>About Us</li>
+                </Link>
+
+                <Link
+                  target="blank"
+                  to="https://www.instagram.com/rarissime_jewels/"
+                  className="transition duration-300"
+                  onClick={toggleMenu}
+                >
+                  <li className="menu-li-icon fixed bottom-0 bg-[#0ba4a2]">
                     <InstagramIcon fontSize="medium" />
-                  </Link>
-                </li>
+                  </li>
+                </Link>
               </ul>
             </div>
           </>
