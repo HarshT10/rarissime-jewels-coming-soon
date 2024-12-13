@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fffef3;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  /* overflow-y: hidden; */
+}
+
+.coming-soon {
+  font-family: "Merriweather";
+  font-weight: 700;
+  /* height: max-content; */
+}
+
+.title {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.link {
+  position: relative;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #197776;
+  transition: width 0.3s ease;
+}
+
+.link:hover {
+  color: #197776;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+.links {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.menu-li {
+  padding: 1.2rem 0;
+  color: #0ba4a2;
+}
+
+.menu-li-icon {
+  padding: 1.2rem 0;
+  color: #fffef3;
+  width: 100%;
+}
+
+.menu-li:hover {
+  background-color: #0ba4a2;
+  color: #fffef3 !important;
+}
+
+.about-us {
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #0ba4a2;
+  line-height: 3rem;
+}
