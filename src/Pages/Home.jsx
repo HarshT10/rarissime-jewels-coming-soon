@@ -24,7 +24,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center text-shadow-md my-48 md:my-44 mx-auto coming-soon">
+    <div className="flex justify-center items-center text-shadow-md h-[85%] mx-auto coming-soon">
       <div className="text-center text-4xl sm:text-6xl text-[#0BA4A2] uppercase">
         <h1 className="text-xl sm:text-2xl title">get ready</h1>
         <div className="sm:my-8 my-4">

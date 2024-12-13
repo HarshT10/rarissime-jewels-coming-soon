@@ -66,6 +66,7 @@ body {
 .menu-li {
   padding: 1.2rem 0;
   color: #0ba4a2;
+  font-weight: 600;
 }
 
 .menu-li-icon {

@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="text-black container mx-auto w-full flex justify-center items-center h-100% py-24 md:py-44 px-5 lg:px-44 xl:px-96">
+    <div className="text-black container mx-auto w-full flex justify-center items-center h-[85%] px-5 lg:px-44 xl:px-96">
       <p className="about-us text-md md:text-xl">
         Welcome to Rarissime Jewels, where elegance meets everyday wear. We
         offer jewellery crafted from 92.5 pure silver that is anti-tarnish,

@@ -11,8 +11,8 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full pt-10 px-5 md:px-10 z-10">
-      <div className="container mx-auto flex md:flex-row justify-between items-center">
+    <header className="w-full h-[10%] flex justify-between items-center px-5 md:px-10 z-10">
+      <div className="container mx-auto flex justify-between items-center">
         <Link to="/">
           <img src={logo} className="w-[8rem] sm:w-[13rem]" alt="Logo" />
         </Link>
